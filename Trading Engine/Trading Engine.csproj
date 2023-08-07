@@ -4,6 +4,15 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Trading_Engine</RootNamespace>
+	<LangVersion>9</LangVersion>
+	<RootNamespace>TradingEngineServer.Core</RootNamespace>
+	  <AssemblyName>TradingEngineServer.Core</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Program.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
 
 </Project>

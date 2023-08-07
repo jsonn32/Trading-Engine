@@ -1,12 +1,8 @@
 ﻿using System;
 
-namespace Trading_Engine
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+using TradingEngineServer.Core;
+
+using Microsoft.Extensions.DependecyInjection;
+using Microsoft.Extensions.Hosting;
+
+
